@@ -1,0 +1,249 @@
+:root{
+    --red-color:#ff0000;
+    --hred-color:#b00000;
+    --dark-color:#000000;
+    --light-color:#F0F0F0;
+    --white-color:#fff;
+    --main-color:#ffbd39;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background: var(--dark-color);
+}
+
+
+.navbar a{
+    color: var(--white-color);
+    font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover{
+    color: var(--main-color);
+}
+
+.search{
+    border-left: 1px solid var(--dark-color);
+}
+
+.search svg{
+    color: var(--main-color);
+}
+
+.navbar .navbar-toggler{
+    color: var(--main-color);
+    font-size: 25px;
+    border-color: var(--main-color);
+}
+
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+/* End Nav */
+.services{
+    background-color: #000000;
+}
+/* Start Landing sec */
+    .landing{
+        background-color: var(--dark-color);
+        min-height: calc(100vh - 71px);
+        position: relative;
+    }
+    .btn{
+        background-color: var(--main-color);
+        color: #000000;
+        transition: 0.7s ease;
+    }
+
+    .btn:hover{
+        font-weight: 500;
+        transform: scale(1.1)
+    }
+
+    .h1{
+        color: #F0F0F0;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .sh1{
+        color: var(--main-color);
+    }
+    .p{
+        color: #F0F0F0;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .p-s{
+        color: var(--main-color);
+    }
+
+    .content{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        color: #F0F0F0;
+    }
+    .main-title{
+        color: #F0F0F0;
+    }
+    .card{
+        background-color: #1a1a1a;
+        width: 21.25em;
+        box-shadow: 0 5px 25px rgba( 1, 1, 1, 15%);
+        border-radius: 10px;
+        padding: 25px;
+        margin: 15px;
+    }
+    
+    .card:hover{
+        transform: scale(1.1);
+        transition: 0.7s ease;
+    }
+    .social-icons a{
+        color: #fff;
+        font-size: 1.7em;
+    }
+/* End Landing sec */
+    .content svg{
+    color: var(--main-color);
+    }
+
+    /* projects */
+    .projects{
+        background-color: #000000;
+    }
+
+    .projects .content{
+        margin-top: 30px;
+    }
+    
+    .project-card p,span{
+        color: #fff;
+    }
+    .project-card{
+        background-color: #1a1a1a;
+        border: 1px solid #1a1a1a;
+        min-height: 14em;
+        width: 23em;
+        overflow: hidden;
+        border-radius: 10px;
+        margin: 20px;
+        transition: 0.7s ease;
+    }
+    
+    .project-card:hover{
+        transform: scale(1.1);
+    }
+    
+    .project-card:hover .project-image{
+        opacity: 0.9;
+    }
+    
+    .project-image img{
+        width: 100%;
+    }
+    
+    .project-info{
+        padding: 1em;
+    }
+    
+    .project-category{
+        font-size: 0.8em;
+        color: #000000;
+    }
+    
+    .project-title{
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        font-weight: 800;
+        margin-top: 10px;
+    }
+    
+    .more-details{
+        text-decoration: none;
+        color: var(--main-color);
+    }
+    
+    .more-details:hover{
+        color: rgba(255, 0, 0, 0.692);
+    }
+
+    .contact .icon{
+        font-size: 4.5em;
+    }
+    
+    .contact .info h3{
+        color: var(--main-color);
+    }
+    
+    .contact .info p{
+        font-size: 1.5em;
+    }
+    .sign{
+        color: var(--main-color);
+    }
+    .title{
+        color: #ffbd39;
+    }
+    /* end projects */
+
+    /*  */
+    .progress-bar{
+        color: #ffbd39;
+    }
+    /*  */
+    .skills{
+        background-color: #000000;
+    }
+    /* contact  */
+    .contact{
+        background-color: #000000;
+        color: #F0F0F0;
+    }
+    .contact a{
+        text-decoration: none;
+        color: #F0F0F0;
+
+    }
+    /* end contact */
+    /* about */
+    .about{
+        background-color: #000000;
+        color: #F0F0F0;
+        background-image: url(/images/sui.png);
+        background-repeat: no-repeat;
+    }
+    /* end about */
+    /* footer */
+    footer{
+        background-color: #000000;
+    }
+    footer a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: 500;
+        
+    }
+    footer a:hover{
+        color: #ffbd39;
+    }
+    /* endfooter */
+    #scroll{
+        position: fixed;
+        right: 10px;
+        bottom: 20px;
+        height: 30px;
+        width: 30px;
+        border: none;
+        clip-path: circle();
+        background:#ffbd39;
+        display: none;
+        cursor: pointer;
+    }

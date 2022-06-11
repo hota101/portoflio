@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="main">
+        <div class="title">
+            <h1 id="title">Survey Form</h1>
+            <p id="descraption">Thanks God For EveryThing</p>
+        </div>
+        <div class="main-content">
+            <div class="form-content">
+                <form action="#">
+                    <label for="fname">First Name</label>
+                    <input type="text" name="firstname" id="fname" placeholder="Your First Name..." required>
+                        <br>
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lastname" id="lname" placeholder="Your Last Name..." required>
+                        <br>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="Enter Your Email..." required>
+                        <br>
+                    <label for="tel">Telphone</label>
+                    <input type="tel" name="tel" id="tel" placeholder="+" class="tel" required>
+                        <br>
+                    <label for="country">Country</label>
+                    <select name="sel" id="country" required>
+                        <option value="egypt">Egypt</option>
+                        <option value="usa">USA</option>
+                        <option value="qatar">Qatar</option>
+                    </select>
+                        <br>
+                     <input type="submit" value="Submit" class="sub">   
+            </div>
+        </div>
+    </div>
+</body>
+</html>
