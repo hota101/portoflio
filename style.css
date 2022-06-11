@@ -217,7 +217,7 @@ body{
     .about{
         background-color: #000000;
         color: #F0F0F0;
-        background-image: url(/images/sui.png);
+        background-image: url(sui.png);
         background-repeat: no-repeat;
     }
     /* end about */
